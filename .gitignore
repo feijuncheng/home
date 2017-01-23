@@ -1,0 +1,5 @@
+node_modules/
+app/*.map
+typings/
+.idea/
+npm-debug.log
