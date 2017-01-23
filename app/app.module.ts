@@ -8,6 +8,7 @@ import { FormsModule}   from '@angular/forms';
 import {AppRoutingModule} from './app-routing.module';
 
 import {AppComponent} from './component/app.component';
+import {NavbarComponent} from "./component/navbar.component";
 @NgModule({
     imports: [
         BrowserModule,
@@ -16,7 +17,8 @@ import {AppComponent} from './component/app.component';
     ],
     declarations: [
         //让angular认识component对应的标签
-        AppComponent
+        AppComponent,
+        NavbarComponent
     ],
     bootstrap: [AppComponent],
     providers: []

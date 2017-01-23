@@ -13,6 +13,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var app_routing_module_1 = require("./app-routing.module");
 var app_component_1 = require("./component/app.component");
+var navbar_component_1 = require("./component/navbar.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -27,7 +28,8 @@ AppModule = __decorate([
         ],
         declarations: [
             //让angular认识component对应的标签
-            app_component_1.AppComponent
+            app_component_1.AppComponent,
+            navbar_component_1.NavbarComponent
         ],
         bootstrap: [app_component_1.AppComponent],
         providers: []

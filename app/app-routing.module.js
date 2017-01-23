@@ -10,7 +10,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
  */
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var routes = [];
+var routes = [
+    {
+        path: '',
+        redirectTo: '',
+        pathMatch: 'full'
+    }, {
+        path: '',
+        component: 
+    }
+];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
     }
