@@ -9,6 +9,7 @@ import {AppRoutingModule} from './app-routing.module';
 
 import {AppComponent} from './component/app.component';
 import {NavbarComponent} from "./component/navbar.component";
+import {AboutMeComponent} from "./component/aboutMe.component";
 @NgModule({
     imports: [
         BrowserModule,
@@ -18,7 +19,8 @@ import {NavbarComponent} from "./component/navbar.component";
     declarations: [
         //让angular认识component对应的标签
         AppComponent,
-        NavbarComponent
+        NavbarComponent,
+        AboutMeComponent
     ],
     bootstrap: [AppComponent],
     providers: []

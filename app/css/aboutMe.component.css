@@ -1,0 +1,18 @@
+ul, li {
+    display: inline-block;
+}
+
+ul {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+li {
+    font-size: 20px;
+    width: 100px;
+    line-height: 60px;
+}

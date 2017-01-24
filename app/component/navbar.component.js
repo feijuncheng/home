@@ -13,15 +13,12 @@ var NavbarComponent = (function () {
     function NavbarComponent() {
         this.navbarContent = [
             {
-                // fatherId: '1',
                 value: '关于我',
                 childs: []
             }, {
-                // fatherId: '2',
                 value: '搞事情',
                 childs: []
             }, {
-                // fatherId: '3',
                 value: 'DOTA2',
                 childs: []
             }
@@ -32,7 +29,8 @@ var NavbarComponent = (function () {
 NavbarComponent = __decorate([
     core_1.Component({
         selector: 'my-navbar',
-        template: "\n        <ul>\n            <li *ngFor=\"let item of navbarContent\">{{item.value}}</li>\n        </ul>\n    "
+        template: "\n        <div>\n            <ul>\n                <li *ngFor=\"let item of navbarContent\">{{item.value}}</li>\n            </ul>\n        </div>\n    ",
+        styleUrls: ['app/css/aboutMe.component.css']
     })
 ], NavbarComponent);
 exports.NavbarComponent = NavbarComponent;

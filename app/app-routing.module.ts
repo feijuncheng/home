@@ -3,21 +3,22 @@
  */
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
+import {AboutMeComponent} from "./component/aboutMe.component";
 
-const routes:Routes = [
+const routes: Routes = [
     {
-        path:'',
-        redirectTo:'',
-        pathMatch:'full'
-    },{
-        path:'',
-        component:
+        path: '',
+        redirectTo: '/aboutMe',
+        pathMatch: 'full'
+    }, {
+        path: 'aboutMe',
+        component: AboutMeComponent
     }
 ];
 
 @NgModule({
-    imports:[RouterModule.forRoot(routes)],
-    exports:[RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
 })
 
 export class AppRoutingModule {

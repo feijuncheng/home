@@ -9,28 +9,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
  * Created by Knight on 2017/1/23.
  */
 var core_1 = require("@angular/core");
-var router_1 = require("@angular/router");
-var aboutMe_component_1 = require("./component/aboutMe.component");
-var routes = [
-    {
-        path: '',
-        redirectTo: '/aboutMe',
-        pathMatch: 'full'
-    }, {
-        path: 'aboutMe',
-        component: aboutMe_component_1.AboutMeComponent
+var AboutMeComponent = (function () {
+    function AboutMeComponent() {
     }
-];
-var AppRoutingModule = (function () {
-    function AppRoutingModule() {
-    }
-    return AppRoutingModule;
+    return AboutMeComponent;
 }());
-AppRoutingModule = __decorate([
-    core_1.NgModule({
-        imports: [router_1.RouterModule.forRoot(routes)],
-        exports: [router_1.RouterModule]
+AboutMeComponent = __decorate([
+    core_1.Component({
+        selector: 'about-me',
+        template: "\n        <img src=\"./app/images/step1.jpg\">\n    ",
+        styles: [
+            'img{width: 100%;height: 100%;}'
+        ]
     })
-], AppRoutingModule);
-exports.AppRoutingModule = AppRoutingModule;
-//# sourceMappingURL=app-routing.module.js.map
+], AboutMeComponent);
+exports.AboutMeComponent = AboutMeComponent;
+//# sourceMappingURL=aboutMe.component.js.map

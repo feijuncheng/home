@@ -3,3 +3,4 @@ app/*.map
 typings/
 .idea/
 npm-debug.log
+build/

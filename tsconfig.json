@@ -4,6 +4,7 @@
     "target": "es5",
     "moduleResolution": "node",
     "sourceMap": true,
+    "outDir": "./build",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
